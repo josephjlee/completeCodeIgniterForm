@@ -98,29 +98,29 @@ echo form_label('Programming Languages');
 echo '<br/>';
 
 //first checkbox
-$dat=array(
+$data1=array(
 'name'=>'lang[]',
 'value'=>'php'
 );
-echo form_checkbox($data);
+echo form_checkbox($data1);
 echo form_label('php');
 echo '<br/>';
 
 //second checkbox
-$dat=array(
+$data1=array(
 'name'=>'lang[]',
 'value'=>'cpp'
 );
-echo form_checkbox($data);
+echo form_checkbox($data1);
 echo form_label('C++');
 echo '<br/>';
 
 //third checkbox
-$dat=array(
+$data1=array(
 'name'=>'lang[]',
 'value'=>'java'
 );
-echo form_checkbox($data);
+echo form_checkbox($data1);
 echo form_label('Java');
 echo '<br/>';
 
