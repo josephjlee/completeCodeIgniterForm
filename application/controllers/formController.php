@@ -14,6 +14,11 @@ class FormController extends CI_Controller
         //load file helper
         $this->load->helper('file');
     }
-     
+    
+    public function index()
+    {
+        //load form view 
+        $this->load->view('formView');
+    }   
 }
 ?>
