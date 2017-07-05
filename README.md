@@ -14,7 +14,12 @@ It has all possible form fields include
  - textarea
  - label 
 
-	
+
+notes
+=====
+    1-no validation is performed on form input fields
+    2-focus on CodeIgniter only ,it your own to play with css styles
+    	
 finally
 =======
 	
